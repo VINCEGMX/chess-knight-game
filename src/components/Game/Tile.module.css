@@ -1,0 +1,22 @@
+.tile {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.tile img {
+  position: relative;
+  top: 50%;
+  width: 40%;
+  height: auto;
+  transform: translateY(-50%);
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
